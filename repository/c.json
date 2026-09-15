@@ -2,6 +2,18 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
+			"name": "C Family Rewrite (C23 and C++23)",
+			"details": "https://github.com/camila314/C-Family-Rewrite",
+			"labels": ["language syntax", "c", "c++", "objc", "objc++", "objective-c"],
+			"description": "Complete modern rewrite of C/C++/ObjC/ObjC++ syntax",
+			"releases": [
+				{
+					"sublime_text": ">=4199",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "C Improved",
 			"details": "https://github.com/abusalimov/SublimeCImproved",
 			"labels": ["language syntax", "c"],
@@ -235,6 +247,17 @@
 			]
 		},
 		{
+			"name": "Calendar Popup",
+			"labels": ["calendar", "utilities"],
+			"details": "https://github.com/blalor/SublimeCalendarPopup",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Can I Use",
 			"details": "https://github.com/Azd325/sublime-text-caniuse",
 			"labels": ["caniuse"],
@@ -242,6 +265,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Candela Color Schemes",
+			"details": "https://github.com/schovi/candela-themes-sublime",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3149",
+					"tags": true
 				}
 			]
 		},
@@ -379,6 +413,17 @@
 			]
 		},
 		{
+			"name": "Carve",
+			"details": "https://github.com/markup-carve/sublime-carve",
+			"labels": ["language syntax", "carve", "markup", "djot"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Case Conversion",
 			"details": "https://github.com/jdavisclark/CaseConversion",
 			"releases": [
@@ -434,7 +479,7 @@
 			"name": "Catppuccin color schemes",
 			"details": "https://github.com/catppuccin/sublime-text",
 			"author": ["Catppuccin"],
-			"labels": ["color scheme"],
+			"labels": ["color scheme", "dark", "light"],
 			"releases": [
 				{
 					"sublime_text": ">=3100",
@@ -1353,6 +1398,28 @@
 			]
 		},
 		{
+			"name": "Claude Code IDE",
+			"details": "https://github.com/Cognisant-llc/sublime-claude-code",
+			"labels": ["ai", "claude", "diff"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ClaudeSublime",
+			"details": "https://gitlab.com/petr.jakub/claudesublime",
+			"labels": ["claude", "anthropic", "ai", "rsync", "sync"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Claudette",
 			"details": "https://github.com/barryceelen/Claudette",
 			"labels": ["ai", "claude"],
@@ -1459,7 +1526,7 @@
 		},
 		{
 			"name": "Clickable URLs",
-			"details": "https://github.com/leonid-shevtsov/ClickableUrls_SublimeText",
+			"details": "https://github.com/pakhromov/ClickableUrls",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2305,6 +2372,19 @@
 			]
 		},
 		{
+			"name": "CodeShot",
+			"details": "https://github.com/yasinahmed/CodeShot",
+			"author": "Yasin Jagral",
+			"labels": ["code", "screenshot", "clipboard", "windows"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
+					"platforms": ["windows"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "CodeStats",
 			"details": "https://github.com/code-stats/code-stats-sublime",
 			"labels": ["analytics", "statistics"],
@@ -2888,6 +2968,7 @@
 		},
 		{
 			"details": "https://github.com/facelessuser/ColorHelper",
+			"labels": ["color", "preview", "utilities"],
 			"releases": [
 				{
 					"sublime_text": "3170 - 3999",
@@ -3268,6 +3349,26 @@
 			]
 		},
 		{
+			"details": "https://github.com/xalteropsx/CompareHistory",
+			"labels": ["diff", "compare", "comparison", "version-history", "side-by-side"],
+			"releases": [
+				{
+					"sublime_text": ">=3143",
+					"tags": true
+				}
+			]
+		},
+		{
+			"details": "https://github.com/mwei-io/CompareLive",
+			"labels": ["diff", "compare", "productivity", "text manipulation", "utilities"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Compass",
 			"details": "https://github.com/whatwedo/sublime-text-compass",
 			"author": "whatwedo",
@@ -3610,16 +3711,6 @@
 			]
 		},
 		{
-			"name": "ConvertChineseCharacters",
-			"details": "https://github.com/leibnizli/ConvertChineseCharacters",
-			"releases": [
-				{
-					"sublime_text": ">3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "ConvertEpochToDate",
 			"details": "https://github.com/nexional/ConvertEpochToDate",
 			"releases": [
@@ -3817,6 +3908,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Copy Python Import",
+			"details": "https://github.com/odiroot/copy_python_import",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
 				}
 			]
 		},
@@ -4174,16 +4275,6 @@
 			"name": "Create WebP Image",
 			"labels": ["webp", "cwebp"],
 			"details": "https://github.com/TomasBarry/Sublime-create-webp-image",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "CreativeCrocodile",
-			"details": "https://github.com/Abban/CreativeCrocodile",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -4942,16 +5033,6 @@
 			]
 		},
 		{
-			"name": "Current Scope",
-			"details": "https://github.com/gumuz/currentscope",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Curry Syntax Highlighting",
 			"details": "https://github.com/jpsikorra/curry_syntax_highlight",
 			"labels": ["curry", "language syntax"],
@@ -5075,12 +5156,12 @@
 		},
 		{
 			"name": "Cypher",
-			"details": "https://github.com/kollhof/sublime-cypher",
+			"details": "https://github.com/fulguritude/cypher-sublime-syntax",
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},

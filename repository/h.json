@@ -93,7 +93,7 @@
 			"name": "Hadar Theme",
 			"author": "Cristian Vásquez",
 			"details": "https://github.com/cristianvasquezc/hadar-sublime-text",
-			"labels": ["theme", "color scheme", "dark", "hadar", "hadar theme"],
+			"labels": ["theme", "color scheme", "dark"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -300,6 +300,17 @@
 			]
 		},
 		{
+			"name": "Harpoon",
+			"details": "https://github.com/huyhoang8398/Harpoon",
+			"labels": ["file navigation", "utilities"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Harvey",
 			"details": "https://github.com/rayje/harvey-sublime",
 			"labels": ["language syntax"],
@@ -497,7 +508,7 @@
 		},
 		{
 			"details": "https://github.com/facelessuser/HexViewer",
-			"labels": ["language syntax"],
+			"labels": ["language syntax", "binary"],
 			"releases": [
 				{
 					"sublime_text": "3000 - 4200",

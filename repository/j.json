@@ -169,7 +169,7 @@
 			"name": "Jasmine JS",
 			"details": "https://github.com/NicoSantangelo/sublime-jasmine",
 			"labels": ["language syntax", "snippets"],
-			"previous_names": ["jasmine", "jasmine bdd"],
+			"previous_names": ["Jasmine", "Jasmine BDD"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -395,16 +395,6 @@
 			"name": "JavaScript Patterns",
 			"details": "https://github.com/caiogondim/js-patterns-sublime-snippets",
 			"labels": ["snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "JavaScript Refactor",
-			"details": "https://github.com/s-a/sublime-text-refactor",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -941,16 +931,6 @@
 			]
 		},
 		{
-			"name": "JS2Coffee",
-			"details": "https://github.com/aziz/sublime-js2coffee",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"details": "https://github.com/junosuarez/JsBDD",
 			"labels": ["language syntax"],
 			"releases": [
@@ -1200,6 +1180,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Json5Formatter",
+			"details": "https://github.com/RAMBOO1990/sublime-json5",
+			"labels": ["formatting", "formatter", "json", "json5"],
+			"releases": [
+				{
+					"sublime_text": ">=4200",
 					"tags": true
 				}
 			]

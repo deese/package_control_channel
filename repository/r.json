@@ -34,17 +34,6 @@
 			]
 		},
 		{
-			"name": "Ra Spring",
-			"details": "https://github.com/vbasky/RaSpring",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Racket",
 			"details": "https://github.com/follesoe/sublime-racket",
 			"labels": ["language syntax"],
@@ -442,14 +431,30 @@
 			]
 		},
 		{
+			"name": "raylang",
+			"details": "https://github.com/ray-language/sublime-raylang",
+			"description": "Syntax highlighting for the raylang programming language (.ray), plus its compiled templates (.ray.html) and LSP setup.",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Razor C# Syntax",
 			"details": "https://github.com/LoneBoco/razor-sublime",
 			"description": "Razor C# .cshtml language syntax for Sublime Text 4.",
 			"labels": ["language syntax", "razor", "c#", "cshtml"],
 			"releases": [
 				{
-					"sublime_text": ">=4075",
-					"tags": true
+					"sublime_text": "4075 - 4205",
+					"tags": "4075-"
+				},
+				{
+					"sublime_text": ">=4206",
+					"tags": "4206-"
 				}
 			]
 		},
@@ -798,6 +803,17 @@
 			]
 		},
 		{
+			"name": "RecentExplorer",
+			"details": "https://github.com/kushaagr/recent-explorer-sublime",
+			"labels": ["project", "open files", "file navigation", "productivity"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "RecentTabSort",
 			"details": "https://github.com/Stuk/sublime-recent-tab-sort",
 			"releases": [
@@ -1091,6 +1107,17 @@
 			]
 		},
 		{
+			"name": "RememberSyntax",
+			"details": "https://github.com/Suor/RememberSyntax",
+			"labels": ["syntax", "utilities"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Remify",
 			"details": "https://github.com/brousalis/remify",
 			"releases": [
@@ -1157,6 +1184,17 @@
 			"releases": [
 				{
 					"sublime_text": ">2999",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "RemoteSync",
+			"details": "https://github.com/NeloGH/RemoteSync",
+			"labels": ["ftp", "sftp", "sync", "remote"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -1362,7 +1400,11 @@
 					"tags": "st3-"
 				},
 				{
-					"sublime_text": ">=4107",
+					"sublime_text": "4107 - 4200",
+					"tags": "st4-py38-"
+				},
+				{
+					"sublime_text": ">=4205",
 					"tags": true
 				}
 			]
@@ -2165,6 +2207,18 @@
 			]
 		},
 		{
+			"name": "RTLAssistant",
+			"details": "https://github.com/jd1378/sublime_rtl_assistant",
+			"labels": ["text manipulation", "unicode"],
+			"previous_names": ["Bidirectional text support"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "RubocopDaemon",
 			"details": "https://github.com/Lichtbit/sublime_rubocop_daemon",
 			"releases": [
@@ -2496,7 +2550,7 @@
 		{
 			"name": "Rust Enhanced",
 			"details": "https://github.com/rust-lang/rust-enhanced",
-			"labels": ["language syntax"],
+			"labels": ["language syntax", "rust"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -2567,7 +2621,7 @@
 					"tags": true
 				}
 			]
-		},		
+		},
 		{
 			"name": "Rux",
 			"details": "https://github.com/rux-lang/SublimeText",

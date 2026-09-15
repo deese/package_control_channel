@@ -94,20 +94,24 @@
 		{
 			"name": "PackageDev",
 			"details": "https://github.com/SublimeText/PackageDev",
-			"author": ["FichteFoll"],
-			"labels": ["language syntax"],
+			"author": "FichteFoll",
+			"labels": ["language syntax", "package development", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "<3154",
 					"tags": "st2-"
 				},
 				{
-					"sublime_text": "<4094",
+					"sublime_text": "3154 - 4093",
 					"tags": "st3-v"
 				},
 				{
-					"sublime_text": ">=4094",
+					"sublime_text": "4094 - 4134",
 					"tags": true
+				},
+				{
+					"sublime_text": ">=4135",
+					"tags": "st-4135/"
 				}
 			]
 		},
@@ -500,6 +504,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Paste Markdown",
+			"details": "https://github.com/Wuvist/subl_paste_md",
+			"labels": ["text manipulation", "clipboard", "paste", "markdown"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["osx"],
+					"tags": true
 				}
 			]
 		},
@@ -1383,7 +1399,7 @@
 		{
 			"name": "phpfmt",
 			"details": "https://github.com/driade/phpfmt8",
-			"labels": ["formatting", "language syntax", "php"],
+			"labels": ["formatting", "php"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1702,12 +1718,16 @@
 			]
 		},
 		{
-			"details": "https://github.com/aziz/PlainTasks",
+			"details": "https://github.com/SublimeText/PlainTasks",
 			"labels": ["language syntax", "todo", "tasks"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<3092",
+					"tags": "st2/"
+				},
+				{
+					"sublime_text": ">=3092",
+					"tags": "st3/"
 				}
 			]
 		},
@@ -2877,6 +2897,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3187",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Publora",
+			"details": "https://github.com/publora/sublime-publora",
+			"labels": ["utilities"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]

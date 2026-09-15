@@ -502,7 +502,7 @@
 		{
 			"name": "Fight Color Scheme",
 			"details": "https://github.com/ghyatzo/fight-color-scheme",
-			"labels": ["color-scheme", "light", "dark"],
+			"labels": ["color scheme", "light", "dark"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -619,6 +619,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "FileConverter",
+			"details": "https://github.com/gerph/sublimetext-fileconverter",
+			"labels": ["utilities", "binary"],
+			"releases": [
+				{
+					"platforms": ["osx", "linux"],
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1213,6 +1225,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "FlexIDE",
+			"details": "https://github.com/rahulsharmagg/FlexIDE",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=4171",
 					"tags": true
 				}
 			]

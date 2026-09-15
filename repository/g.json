@@ -356,7 +356,7 @@
 		},
 		{
 			"name": "Gettext",
-			"details": "https://github.com/idleberg/sublime-gettext",
+			"details": "https://github.com/michaelblyons/SublimeSyntax-gettext",
 			"labels": ["language syntax", "snippets", "gettext", "i18n", "l10n"],
 			"releases": [
 				{
@@ -504,6 +504,7 @@
 		{
 			"name": "Git badges like VS Code",
 			"details": "https://github.com/arxeiss/Sublime-GitBadgesLikeVSCode",
+			"labels": ["git", "sidebar"],
 			"releases": [
 				{
 					"sublime_text": ">=3200",
@@ -526,7 +527,7 @@
 			"author": ["Tomas Barry"],
 			"name": "Git CoAuthor",
 			"description": "Auto-complete a git commit co-authorship",
-			"labels": ["git", "git commit", "co-author"],
+			"labels": ["git", "commit", "co-author"],
 			"details": "https://github.com/TomasBarry/Sublime-git-co-author",
 			"releases": [
 				{
@@ -538,7 +539,7 @@
 		{
 			"name": "Git Commit Message Syntax",
 			"details": "https://github.com/adambullmer/sublime_git_commit_syntax",
-			"labels": ["git", "language", "syntax", "language syntax", "commit"],
+			"labels": ["language syntax", "git", "commit"],
 			"author": "adambullmer",
 			"releases": [
 				{
@@ -550,7 +551,7 @@
 		{
 			"name": "Git Config",
 			"details": "https://github.com/robballou/gitconfig-sublimetext",
-			"labels": ["language syntax"],
+			"labels": ["language syntax", "git"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -561,6 +562,7 @@
 		{
 			"name": "Git Conflict Resolver",
 			"details": "https://github.com/sascha-wolf/sublime-GitConflictResolver",
+			"labels": ["git", "gutter"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -661,6 +663,7 @@
 		},
 		{
 			"details": "https://github.com/jisaacks/GitGutter",
+			"labels": ["git", "diff", "gutter"],
 			"releases": [
 				{
 					"sublime_text": "<3176",
@@ -685,7 +688,7 @@
 		},
 		{
 			"name": "GitHub Desktop",
-			"previous_names": ["Git​Hub.app Menu"],
+			"previous_names": ["GitHub.app Menu"],
 			"details": "https://github.com/braver/SublimeGitHub",
 			"releases": [
 				{
@@ -1100,6 +1103,17 @@
 			]
 		},
 		{
+			"name": "GlyphConstruction",
+			"details": "https://github.com/adbac/GlyphConstruction-SublimePackage",
+			"labels": ["language syntax", "completions"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "GM Syntax",
 			"details": "https://github.com/andyp123/GMSyntax",
 			"labels": ["language syntax"],
@@ -1308,18 +1322,6 @@
 			]
 		},
 		{
-			"name": "GoEscape",
-			"details": "https://bitbucket.org/shellzen/goescape",
-			"labels": ["go"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"platforms": ["linux"],
-					"tags": true
-				}
-			]
-		},
-		{
 			"details": "https://github.com/Manrich121/goFindCallers",
 			"labels": ["go"],
 			"releases": [
@@ -1411,6 +1413,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3067",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Gold Rose",
+			"details": "https://github.com/zacharytruong/gold-rose",
+			"labels": ["color scheme", "theme"],
+			"releases": [
+				{
+					"sublime_text": ">=4050",
 					"tags": true
 				}
 			]
@@ -2015,6 +2028,17 @@
 			]
 		},
 		{
+			"name": "GrADS",
+			"details": "https://github.com/fox91/GrADS-Sublime-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4075",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Grails",
 			"details": "https://github.com/osoco/sublimetext-grails",
 			"labels": ["auto-complete", "language syntax", "framework support"],
@@ -2257,7 +2281,7 @@
 		{
 			"name": "Grun Colour Scheme",
 			"details": "https://github.com/SimonImbrogno/Grun",
-			"labels": ["colour scheme", "dark", "dim", "green"],
+			"labels": ["color scheme", "colour scheme", "dark", "dim", "green"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2385,7 +2409,7 @@
 		{
 			"name": "Guna",
 			"details": "https://github.com/poucotm/Guna",
-			"labels": ["theme", "color scheme", "clock", "weather"],
+			"labels": ["theme", "color scheme", "dark", "clock", "weather"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -2407,7 +2431,7 @@
 			"name": "Gutter Themes for SL",
 			"details": "https://github.com/SalGnt/gutter-themes-for-sl",
 			"author": "Salvatore Gentile",
-			"labels": ["gutter", "themes", "sl", "theme", "sublimelinter"],
+			"labels": ["gutter", "sl", "theme", "sublimelinter"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",

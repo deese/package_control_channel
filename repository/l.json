@@ -125,7 +125,7 @@
 		{
 			"name": "LanguagePortuguese",
 			"details": "https://github.com/gusbemacbe/LanguagePortuguese",
-			"labels": ["spell check", "brasil", "brazil", "brazilian", "dicionário", "dictionnary", "português", "portuguese", "portugal"],
+			"labels": ["spell check", "brasil", "brazil", "brazilian", "dicionário", "dictionary", "português", "portuguese", "portugal"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -576,6 +576,7 @@
 		},
 		{
 			"details": "https://github.com/SublimeText/LaTeXTools",
+			"labels": ["build system", "snippets", "completions", "file navigation", "citations", "latex", "bibtex"],
 			"releases": [
 				{
 					"sublime_text": "<3000",
@@ -793,6 +794,15 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"details": "https://github.com/Francium-223/LeetCodeTools",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -1077,6 +1087,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Limitcode",
+			"details": "https://github.com/Jawuilp/Limitcode",
+			"labels": ["ai", "llm", "agent", "assistant", "chat"],
+			"releases": [
+				{
+					"sublime_text": ">=4050",
 					"tags": true
 				}
 			]
@@ -1423,6 +1444,17 @@
 			]
 		},
 		{
+			"name": "LLM",
+			"details": "https://github.com/tonylchang/sublime-llm",
+			"labels": ["ai", "llm", "chat"],
+			"releases": [
+				{
+					"sublime_text": ">=4050",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "LLVM",
 			"details": "https://github.com/whitequark/llvm.tmbundle",
 			"labels": ["language syntax"],
@@ -1500,7 +1532,7 @@
 		{
 			"name": "LocalizedMenu",
 			"details": "https://github.com/zam1024t/LocalizedMenu",
-			"labels": ["localize", "tool", "menu"],
+			"labels": ["localize", "tool", "menu", "l10n", "i18n"],
 			"releases": [
 				{
 					"sublime_text": "*",

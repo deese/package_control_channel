@@ -691,6 +691,17 @@
 			]
 		},
 		{
+			"name": "BetterGoToFile",
+			"details": "https://github.com/Suor/GoToFile",
+			"labels": ["file open", "code navigation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "BetterSave",
 			"details": "https://github.com/adrian-tut/BetterSave",
 			"labels": ["save", "close"],
@@ -799,16 +810,6 @@
 			]
 		},
 		{
-			"name": "Bidirectional text support",
-			"details": "https://github.com/praveenvijayan/Sublime-Text-2-BIDI",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Bigine",
 			"details": "https://github.com/dahaode/st3-bigine",
 			"labels": ["language syntax"],
@@ -907,13 +908,14 @@
 			]
 		},
 		{
-			"name": "Bitbake Syntax",
-			"details": "https://github.com/Driim/bitbake-syntax",
+			"name": "BitBake",
+			"previous_names": ["BitBake Syntax"],
+			"details": "https://github.com/SublimeText/BitBake",
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">3084",
-					"tags": true
+					"sublime_text": ">=3176",
+					"tags": "3176-"
 				}
 			]
 		},
@@ -997,6 +999,15 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"details": "https://github.com/RushabhJoshi/BladeFormatter",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -1327,6 +1338,17 @@
 			]
 		},
 		{
+			"name": "Borliana Color Scheme",
+			"details": "https://github.com/Avijit-1234/Borliana-Color-Scheme",
+			"labels": ["color scheme", "dark", "minimalist"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Bottle",
 			"details": "https://github.com/eric-wieser/sublime-bottle",
 			"labels": ["language syntax", "snippets", "python"],
@@ -1402,6 +1424,17 @@
 			]
 		},
 		{
+			"name": "BoxLang",
+			"details": "https://github.com/ortus-boxlang/sublimetext-boxlang",
+			"labels": ["boxlang", "cfml", "jvm", "formatting", "language syntax", "java", "build system", "completions", "auto-complete", "utilities"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "BracketFlasher",
 			"details": "https://github.com/jaytiar/SublimeBracketFlasher",
 			"labels": ["brackets"],
@@ -1425,6 +1458,7 @@
 		},
 		{
 			"details": "https://github.com/facelessuser/BracketHighlighter",
+			"labels": ["brackets"],
 			"releases": [
 				{
 					"sublime_text": "3000 - 4200",
@@ -1503,17 +1537,6 @@
 			"name": "BreakLines",
 			"details": "https://github.com/Moojuiceman/BreakLines",
 			"labels": ["break", "group", "split", "separate", "lines"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Brevis Autocomplete",
-			"details": "https://github.com/dlzi/brevis-autocomplete",
-			"labels": ["auto-complete", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",

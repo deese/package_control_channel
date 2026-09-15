@@ -81,6 +81,17 @@
 			]
 		},
 		{
+			"name": "Abrase",
+			"details": "https://github.com/KHN190/Abrase-sublime",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Abstract Markup Language",
 			"details": "https://github.com/abstractmarkup/sublimetext",
 			"labels": ["build system", "language syntax", "snippets"],
@@ -172,17 +183,6 @@
 					"platforms": "osx",
 					"sublime_text": "*",
 					"tags": "osx-"
-				}
-			]
-		},
-		{
-			"name": "Acme",
-			"details": "https://github.com/multiversecoder/Acme",
-			"labels": ["color scheme", "theme", "acme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
 				}
 			]
 		},
@@ -561,6 +561,18 @@
 			]
 		},
 		{
+			"name": "AI Bridge",
+			"author": "Jonathan Heintzeman",
+			"details": "https://github.com/MNU-497/Sublime-AI-Bridge",
+			"labels": ["text manipulation", "mcp", "ai"],
+			"releases": [
+				{
+					"sublime_text": ">=4081",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "AiComplete",
 			"description": "Auto code completion using Gemini API",
 			"author": "Chinmay Agarwal",
@@ -892,16 +904,6 @@
 		{
 			"name": "AMP Snippets",
 			"details": "https://github.com/teamwethrift/amp-snippets",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "AmpersandJS Snippets",
-			"details": "https://github.com/HSH/AmpersandJS-Sublime-Text-Snippets",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1638,6 +1640,7 @@
 		},
 		{
 			"details": "https://github.com/facelessuser/ApplySyntax",
+			"labels": ["syntax", "utilities"],
 			"releases": [
 				{
 					"sublime_text": "3000 - 4200",
@@ -2140,6 +2143,17 @@
 			]
 		},
 		{
+			"name": "Atlas Ragnarok Color Scheme",
+			"details": "https://github.com/AyoubTadlaoui/atlas-ragnarok",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": "st-"
+				}
+			]
+		},
+		{
 			"name": "Atomic Color Scheme",
 			"details": "https://github.com/gerardbm/Sublime-Atomic-Scheme",
 			"labels": ["color scheme"],
@@ -2336,6 +2350,19 @@
 				{
 					"sublime_text": "*",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "AutoAppearance",
+			"details": "https://github.com/platformengineer/autoappearance",
+			"author": ["navisidhu"],
+			"labels": ["color scheme", "theme", "dark mode", "utilities", "xdg-desktop-portal"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true,
+					"platforms": ["linux"]
 				}
 			]
 		},

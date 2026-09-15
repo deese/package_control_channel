@@ -325,6 +325,28 @@
 			]
 		},
 		{
+			"name": "Makinda Color Scheme",
+			"details": "https://github.com/makinda-jackson/makinda-sublime",
+			"labels": ["color scheme", "theme", "light", "dark", "orange"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Makinda Icons",
+			"details": "https://github.com/makinda-jackson/makinda-icons-sublime",
+			"labels": ["theme", "icons", "file icons"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Mako",
 			"details": "https://github.com/marconi/mako-tmbundle",
 			"labels": ["language syntax"],
@@ -732,6 +754,16 @@
 			]
 		},
 		{
+			"details": "https://github.com/CaffeineOddity/MarkdownPreviewEnhanced",
+			"labels": ["markdown", "preview", "mermaid", "live preview", "syntax highlighting"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/naokazuterada/MarkdownTOC",
 			"labels": ["markdown", "toc", "table of contents"],
 			"releases": [
@@ -943,7 +975,7 @@
 		{
 			"name": "Material Monokai",
 			"details": "https://github.com/hlrossato/material-monokai",
-			"labels": ["color scheme", "material design", "monokai"],
+			"labels": ["color scheme", "material", "monokai"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1399,8 +1431,10 @@
 		{
 			"name": "Mercurial Color Scheme",
 			"details": "https://github.com/renzojohnson/mercurial-color-scheme",
-			"donate": "https://github.com/sponsors/renzojohnson",
-			"labels": ["color scheme"],
+			"homepage": "https://renzojohnson.com",
+			"issues": "https://renzojohnson.com/contact",
+			"donate": "https://www.paypal.com/paypalme/renzojohnson",
+			"labels": ["color scheme", "dark", "light"],
 			"releases": [
 				{
 					"sublime_text": ">=3149",
@@ -1733,7 +1767,7 @@
 			"name": "Minify on Save",
 			"details": "https://github.com/eltonvs/sublime-minify-on-save",
 			"author": "eltonvs",
-			"labels": ["automatization", "minify"],
+			"labels": ["automation", "minify"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2115,6 +2149,10 @@
 				{
 					"sublime_text": "<3000",
 					"tags": "st2/"
+				},
+				{
+					"sublime_text": "3000 - 4134",
+					"tags": "st3/"
 				},
 				{
 					"sublime_text": ">=4135",

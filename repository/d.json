@@ -333,6 +333,17 @@
 			]
 		},
 		{
+			"name": "Datapack Icons",
+			"details": "https://github.com/FuncFusion/mc-dp-icons-sublime",
+			"labels": ["theme", "file", "icons"],
+			"releases": [
+				{
+					"sublime_text": ">=3084",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Datastar",
 			"details": "https://github.com/SublimeText/Datastar",
 			"labels": ["completions", "language syntax"],
@@ -1645,7 +1656,7 @@
 		{
 			"name": "Dracula Color Scheme",
 			"details": "https://github.com/dracula/sublime",
-			"labels": ["color scheme"],
+			"labels": ["color scheme", "dark"],
 			"releases": [
 				{
 					"sublime_text": "*",

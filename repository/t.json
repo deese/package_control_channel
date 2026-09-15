@@ -182,6 +182,17 @@
 			]
 		},
 		{
+			"details": "https://github.com/SublimeText/TabStack",
+			"author": "FichteFoll",
+			"labels": ["tab navigation"],
+			"releases": [
+				{
+					"sublime_text": ">=4100",
+					"tags": "st-4100/"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/jbrooksuk/TabsToTable",
 			"releases": [
 				{
@@ -277,6 +288,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Tahcia Script Sync",
+			"details": "https://github.com/tahcia/sublime_text",
+			"labels": ["automation", "scripting", "json", "remote execution"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -736,6 +758,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "TermMate",
+			"details": "https://github.com/flashmodel/termmate",
+			"labels": ["agent", "chat", "ai", "llm"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -2112,7 +2145,7 @@
 		{
 			"name": "Theme - Spacegray",
 			"details": "https://github.com/SublimeText/Spacegray",
-			"labels": ["theme", "color scheme"],
+			"labels": ["theme", "color scheme", "dark", "light"],
 			"releases": [
 				{
 					"sublime_text": ">=4000",
@@ -3092,6 +3125,17 @@
 			]
 		},
 		{
+			"name": "TOON",
+			"details": "https://github.com/mpgirro/sublime-toon-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Topas Syntax",
 			"details": "https://github.com/davidchall/topas-syntax",
 			"labels": ["language syntax"],
@@ -3430,7 +3474,11 @@
 			"author": "kylebebak",
 			"releases": [
 				{
-					"sublime_text": ">=4107",
+					"sublime_text": "4107 - 4200",
+					"tags": "st4-py38-"
+				},
+				{
+					"sublime_text": ">=4205",
 					"tags": true
 				}
 			]
