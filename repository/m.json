@@ -1326,6 +1326,17 @@
 			]
 		},
 		{
+			"name": "MDLinknavigator",
+			"details": "https://github.com/deese/MDLinknavigator",
+			"labels": [ "utilities", "markdown" ],
+			"releases": [
+				{
+				    "sublime_text": ">=4000",
+				    "tags": true
+				}
+			]
+		},
+		{
 			"name": "MediaPlayer",
 			"details": "https://github.com/Monnoroch/SublimePlayer",
 			"labels": ["media"],
